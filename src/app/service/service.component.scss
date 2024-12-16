@@ -1,0 +1,54 @@
+.service-container {
+    background-image: url(/assets/image/service-bg.jpg);
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-img-top {
+    width: 25px;
+    height: 25px;
+}
+.card{
+    width: 150px;
+}
+
+.service-heading {
+    display: flex;
+    justify-content: center;
+}
+.service-para{
+    text-align: center;
+    padding: 25px;
+}
+
+.logo-img {
+    max-width: 12%;
+    height: auto;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.builder-para {
+    text-align: center;
+    padding: 30px 35%;
+}
+.logos{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #e19b49;
+    border-radius: 24px;
+    align-items: center;
+}
+@media only screen and (max-width: 500px) {
+    .builder-para{
+        padding: 30px 5%;
+    }
+  }

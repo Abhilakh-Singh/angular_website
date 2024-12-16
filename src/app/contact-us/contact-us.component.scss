@@ -1,0 +1,20 @@
+
+.container-fluid{
+    background-color: lightgray ;
+}
+.contact-heading{
+    display: flex;
+    justify-content: center;
+}
+.forms{
+padding: 20px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 0px 10px 10px -7px #0000003d;
+border: 1px solid #f8f8f8;
+}
+.btn{
+    background-color: chocolate;
+    width: 20%;
+    color: white;
+}

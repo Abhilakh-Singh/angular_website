@@ -1,0 +1,88 @@
+.header-div{
+    background-image: 
+    url('/assets/gurugram-project/gurugram-header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+.residential{
+    color: white;
+    padding: 15px;
+}
+.residential-para{
+    color: white;
+    padding: 15px;
+}
+
+.project-one {
+    background-image:  
+    url('/assets/blog/blog1.jpg');
+    position: relative; 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.project-two {
+    background-image: 
+    url('/assets/blog/blog2.jpg');
+    position: relative; 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+  
+}
+.project-three {
+    background-image: 
+    url('/assets/blog/blog3.jpg');
+    position: relative; 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.project-four {
+    background-image:
+    url('/assets/blog/blog4.jpg');
+    position: relative; 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.project-five {
+    background-image: 
+    url('/assets/blog/blog5.jpg');
+    position: relative; 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+}
+.project-six {
+    background-image: 
+    url('/assets/blog/blog6.jpg');
+    position: relative; 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+}
+.image-description{
+    line-height: 26px;
+    padding-top: 10px;
+    font-family: math;
+}
+.image-description h5{
+    font-weight: bold;
+}
+.readmore{
+    font-family: math;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}

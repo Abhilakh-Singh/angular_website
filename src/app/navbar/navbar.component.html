@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div>
+              <img class="logo" src="/assets/image/IG-logo.svg" alt="">
+            </div>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/home-page" routerLinkActive="active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/about-us" routerLinkActive="active">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                   Project
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" routerLink="/gurugram-project" routerLinkActive="active">Gurugram</a></li>
+                  <li><a class="dropdown-item" routerLink="/delhi-project" routerLinkActive="active">Delhi</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/blog" routerLinkActive="active">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/contact-us" routerLinkActive="active">Contact</a>
+              </li>
+            </ul>
+          </div>
+          
+    </div>
+</nav>
