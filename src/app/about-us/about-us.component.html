@@ -1,23 +1,36 @@
 <div id="about" class="container">
+
+ 
+
     <div class="row pt-5">
         <div class="col-lg-6 col-md-12 animate__animated animate__bounceInLeft">
             <div class="about-heading">
-                <h5>About-Us</h5>
+                <h5 class="m-2">About-Us</h5>
+
+                <div>
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example" 
+                            (change)="switchLanguage($event)">
+                      <option value="en" selected>English</option>
+                      <option value="fr">Français</option>
+                      <option value="hi">हिंदी</option>
+                    </select>
+                  </div>
+                  
             </div>
             <div >
-                <h4 class="company-name">Welcome To Mathesis Labs Technology</h4>
+                <h4 class="company-name">{{'HEADING' | translate}}</h4>
             </div>
 
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum a odio perferendis hic ab dolores sit impedit itaque. Nostrum, dolorum sint voluptatibus ad commodi laboriosam voluptatum perspiciatis possimus, veniam beatae culpa praesentium ratione tenetur blanditiis! </p>
+                <p>{{ 'DESCRIPTION_1' | translate }}</p>
             </div>
 
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum a odio perferendis hic ab dolores sit impedit itaque. Nostrum, dolorum sint voluptatibus ad commodi laboriosam voluptatum perspiciatis possimus, veniam beatae culpa praesentium ratione tenetur blanditiis!</p>
+                <p>{{ 'DESCRIPTION_1' | translate }}</p>
             </div>
 
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ipsum a odio perferendis hic ab dolores sit impedit itaque. Nostrum, dolorum sint voluptatibus ad commodi laboriosam voluptatum perspiciatis possimus, veniam beatae culpa praesentium ratione tenetur blanditiis! </p>
+                <p>{{ 'DESCRIPTION_1' | translate }}</p>
             </div>
            
 
